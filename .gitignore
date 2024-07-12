@@ -3,3 +3,4 @@ models/form-object-model.pt
 __pycache__/
 data/*/*/lijst*
 ocr_data/*/*
+output.csv
