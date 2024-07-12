@@ -1,2 +1,4 @@
 models/data-row-model.pt
 models/form-object-model.pt
+__pycache__/
+data/*/*/lijst*
