@@ -1,7 +1,9 @@
 import sys
 import elements
+import rows
 def run_all():
     elements.form_element_model()
+    rows.data_row_model()
 
 def main():
     # Get all arguments
@@ -15,6 +17,8 @@ def main():
         match arg:
             case "element":
                 elements.form_element_model()
+            case "row":
+                rows.data_row_model()
             case _:
                 print(f"Invalid argument: {arg}")
 

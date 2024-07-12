@@ -68,6 +68,7 @@ def check_relevance(boxes):
     return True  
 
 def form_element_model():
+    print("Running form element model")
     # Find data
     for municipality in os.listdir(source):
         print(f"Processing {municipality}")
