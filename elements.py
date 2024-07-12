@@ -1,6 +1,5 @@
 import re
 from ultralytics import YOLO
-from tqdm import tqdm
 from PIL import Image
 import pytesseract
 import numpy as np

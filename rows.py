@@ -1,6 +1,5 @@
 import re
 from ultralytics import YOLO
-from tqdm import tqdm
 from PIL import Image
 import numpy as np
 import cv2
@@ -24,7 +23,7 @@ def data_row_model():
                 lijst_num = int(lijst.split("lijst")[1])
 
                 create_folders_data(lijst_num, f"{source}/{municipality}/{stem}")
-                
+
                 tables = []
                 for table in os.listdir(f"{source}/{municipality}/{stem}/{lijst}/table"):
                     tables.append(Image.open(f"{source}/{municipality}/{stem}/{lijst}/table/{table}"))
